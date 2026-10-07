@@ -2,7 +2,7 @@ import butelka from "../../assets/images/butelka.png"
 
 function Produkty (){
     return (
-        <section className=" w-[1280px] flex flex-col h-[740px] mx-[23px] mt-[5px]" id="produkty">
+        <section className=" w-[1280px] flex flex-col h-[640px] mx-[23px] mt-[5px]" id="produkty">
             <div className=" w-[1234px] flex flex-col h-[593px] mx-[23px]  rounded-[20px] justify-center items-center ">
                 <p className="playfair text-white text-[40px]">Wybierz swój zapach</p>
                 <p className="inter text-white text-[12px] opacity-40 my-[20px] w-[446px] leading-3.5">Poznaj nasze warianty i wybierz pojemność dopasowaną do Twojego stylu.</p>

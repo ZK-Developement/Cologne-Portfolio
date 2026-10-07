@@ -1,6 +1,6 @@
-import roza from "../../images/roza.jpg"
-import flakon from "../../images/flakon.jpg"
-import pudelko from "../../images/pudełko.jpg"
+import roza from "../../assets/images/roza.jpg"
+import flakon from "../../assets/images/flakon.jpg"
+import pudelko from "../../assets/images/pudełko.jpg"
 
 function Onas (){
     return(

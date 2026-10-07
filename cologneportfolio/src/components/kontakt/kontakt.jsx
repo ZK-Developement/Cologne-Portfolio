@@ -1,4 +1,4 @@
-import tlo from "../../images/hero.jpg"
+import tlo from "../../assets/images/hero.jpg"
 
 function Kontakt (){
     return (

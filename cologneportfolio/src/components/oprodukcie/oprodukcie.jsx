@@ -1,4 +1,4 @@
-import butelka from "../../images/butelka.png"
+import butelka from "../../assets/images/butelka.png"
 
 function OProdukcie (){
     return (

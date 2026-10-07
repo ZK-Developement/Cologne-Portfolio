@@ -1,4 +1,4 @@
-import tlo from "../../images/hero.jpg"
+import tlo from "../../assets/images/hero.jpg"
 
 function Kontakt (){
     return (
@@ -15,16 +15,16 @@ function Kontakt (){
                     </div>
                 </div>
                 <div className="flex flex-col  h-[470px] w-[500px] justify-center items-center">
-                    <div className="flex flex-col h-[460px] w-[496px] bg-center bg-[length:300%_120%] rounded-[20px]" style={{ backgroundImage: `url(${tlo})`}}>
+                    <div className="flex flex-col h-[460px] w-[496px] bg-center bg-[length:300%_120%] rounded-[20px]" style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(${tlo})`}}>
                         <form className="w-full flex flex-col justify-center items-center pt-[40px] gap-[13px] text-white text-[10px]">
-                            <input type="text" name="name" id="name" placeholder="Imię i Nazwisko" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF] bg-[#FFFFFF01] pl-[10px]"/>
-                            <input type="email" name="name" id="email" placeholder="Adres Email" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF] bg-[#FFFFFF01] pl-[10px]"/>
-                            <input type="text" name="name" id="phone" placeholder="Numer telefonu" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF] bg-[#FFFFFF01] pl-[10px]"/>
-                            <textarea className="w-[393px] h-[177px] rounded-[10px] border-1 border-[#FFFFFF] bor bg-[#FFFFFF01] pl-[10px]" placeholder="Napisz wiadomość do zamówienia"></textarea>
+                            <input type="text" name="name" id="name" placeholder="Imię i Nazwisko" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF30] bg-[#FFFFFF01] pl-[10px]"/>
+                            <input type="email" name="name" id="email" placeholder="Adres Email" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF30] bg-[#FFFFFF01] pl-[10px]"/>
+                            <input type="text" name="name" id="phone" placeholder="Numer telefonu" className="w-[393px] h-[30px] rounded-[10px] border-1 border-[#FFFFFF30] bg-[#FFFFFF01] pl-[10px]"/>
+                            <textarea className= "resize-none  w-[393px] h-[177px] rounded-[10px] border-1 border-[#FFFFFF30] bor bg-[#FFFFFF01] pl-[10px]" placeholder="Napisz wiadomość do zamówienia"></textarea>
                             <div className="flex text-[12px] justify-center items-center">
-                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>60ml 
-                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>180ml
-                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>400ml
+                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF30] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>60ml 
+                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF30] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>180ml
+                                <input type="radio" name="ratio" id="size" className="flex w-[18px] h-[18px] border-1 border-[#FFFFFF30] ml-[14px] mr-[4px] rounded-[4px] appearance-none checked:bg-[#FFFFFF90] cursor-pointer transition-[1s]"/>400ml
                             </div>
                             <button className="lqglass w-[140px] h-[25px] rounded-[20px] mt-[10px]">Zamów</button>
                         </form>

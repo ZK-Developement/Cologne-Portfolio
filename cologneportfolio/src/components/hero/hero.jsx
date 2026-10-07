@@ -1,5 +1,5 @@
-import tlo from "../../images/hero.jpg"
-import arrow from "../../images/arrow.png"
+import tlo from "../../assets/images/hero.jpg"
+import arrow from "../../assets/images/arrow.png"
 
 function Hero (){
     return (

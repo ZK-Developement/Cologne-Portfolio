@@ -1,10 +1,10 @@
 import './App.css'
-import Hero from "./assets/components/hero/hero"
-import Header from './assets/components/header/header'
-import Onas from './assets/components/onas/onas'
-import Produkty from './assets/components/produkty/produkty'
-import OProdukcie from './assets/components/oprodukcie/oprodukcie'
-import Kontakt from './assets/components/kontakt/kontakt'
+import Hero from "./components/hero/hero"
+import Header from './components/header/header'
+import Onas from './components/onas/onas'
+import Produkty from './components/produkty/produkty'
+import OProdukcie from './components/oprodukcie/oprodukcie'
+import Kontakt from './components/kontakt/kontakt'
 
 function App() {
 

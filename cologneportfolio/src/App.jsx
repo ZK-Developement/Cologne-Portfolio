@@ -5,6 +5,7 @@ import Onas from './components/onas/onas'
 import Produkty from './components/produkty/produkty'
 import OProdukcie from './components/oprodukcie/oprodukcie'
 import Kontakt from './components/kontakt/kontakt'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <OProdukcie />
         <Kontakt />
       </main>
+      <Footer />
     </>
   )
 }
